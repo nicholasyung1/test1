@@ -30,6 +30,7 @@ public class AddressBook {
         AddressBook book1 = new AddressBook();
 
         book1.addBuddy("John", new BuddyInfo("John", "NULL", 1234567890));
+        book1.removeBuddy("John");
 
     }
 
